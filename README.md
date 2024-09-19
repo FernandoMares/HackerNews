@@ -19,15 +19,15 @@ Prerequisites
 #### Running the Application
 Clone the repository:
 
- - git clone https://github.com/FernandoMares/HackerNewsTopStories.git
+ - git clone https://github.com/FernandoMares/HackerNews.git
 
- - cd FGMHackerNewsAPI
+ - Open Visual Studio and select Open a project or solution.
 
-Build and run the application:
- - `dotnet build`
- - `dotnet run`
+ - Navigate to the HackerNews/DeveloperCodingTestFGM folder and open the solution file (.sln).
+ 
+ - Build and run the application by pressing F5 or selecting Debug > Start Debugging from the menu.
 
-The API will be available at http://localhost:7209/swagger/index.html or http://localhost:5092/swagger/index.html
+ - The API should be available at http://localhost:7209/swagger/index.html or http://localhost:5092/swagger/index.html (Port can be different)
 
 ## Project Structure
 
@@ -168,17 +168,13 @@ Unit tests are included to ensure the functionality of the HackerNewsService cla
 ## Run tests
 To run the unit tests:
 
-Navigate to the test project directory:
+  - Open Visual Studio and select Open a project or solution.
 
-``
-cd HackerNewsTopStories.Tests
-``
+  - Navigate to the HackerNews.Tests folder and open the solution file (.sln) if it is not already open.
 
-Run the tests using the .NET CLI:
+  - In the Solution Explorer window, right-click on the test project (HackerNews.Tests) and select Run Tests.
 
-``
-dotnet test
-``
+  - You can also open the Test Explorer window (via Test > Test Explorer from the menu) and click the Run All button to execute all tests.
 
 
 
