@@ -1,17 +1,89 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PruebaHackerAPI\\Tests\\Tests.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\PruebaHackerAPI\\Tests\\Tests.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PruebaHackerAPI\\Tests\\Tests.csproj",
-        "projectName": "Tests",
-        "projectPath": "C:\\PruebaHackerAPI\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj",
+        "projectName": "DeveloperCodingTestFGM",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\PruebaHackerAPI\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +104,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\PruebaHackerAPI\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj": {
-                "projectPath": "C:\\PruebaHackerAPI\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj"
+              "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj": {
+                "projectPath": "C:\\Users\\Admin\\source\\repos\\APISantander\\HackerNews\\DeveloperCodingTestFGM\\DeveloperCodingTestFGM.csproj"
               }
             }
           }
